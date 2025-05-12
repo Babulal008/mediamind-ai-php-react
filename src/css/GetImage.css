@@ -1,0 +1,12 @@
+.tooltip {
+    visibility: hidden;
+    cursor: pointer;
+    background-color: black;
+    /* Or display: none, depending on how you want it to behave */
+}
+
+.tooltip-on-hover:hover+.tooltip {
+    /* Uses the adjacent sibling selector */
+    visibility: visible;
+    /* Or display: block */
+}

@@ -1,0 +1,8 @@
+.short-creator-block:has(.videospecific)
+{
+    width:520px;
+}
+.videospecific
+{
+    width: 100%;
+}
